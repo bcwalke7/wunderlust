@@ -147,6 +147,8 @@ h1,
 h2,
 h3 {
   font-family: var(--molle);
+  font-style: italic;
+  font-weight: 400;
 }
 
 h4,
@@ -157,6 +159,8 @@ nav,
 button,
 form {
   font-family: var(--mont);
+  font-style: normal;
+  font-weight: 400;
 }
 
 body {
@@ -643,7 +647,6 @@ footer a {
   input[type="submit"] {
     width: 50%;
     position: relative;
-    left: 100;
   }
 
   #selects input {
